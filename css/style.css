@@ -1,4 +1,9 @@
 * {
   background: url(https://static.toiimg.com/thumb/resizemode-4,width-1200,height-900,msid-90338052/90338052.jpg);
   background-size: 450px 370px;
+}
+
+#logoImage {
+  width: 100px;
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */
