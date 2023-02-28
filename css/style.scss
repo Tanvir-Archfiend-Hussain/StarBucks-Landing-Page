@@ -1,9 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
-  background: url(https://static.toiimg.com/thumb/resizemode-4,width-1200,height-900,msid-90338052/90338052.jpg);
-  background-size: 450px 370px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 #logoImage {
   width: 100px;
   height: 100px;
+}
+
+section {
+  position: relative;
+  width: 100%; // this has just made the sections full size
+  min-height: 100vh;
+  padding: 100px; //this has moved the section to the center
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // background: #fff;
+  background: url(https://static.toiimg.com/thumb/resizemode-4,width-1200,height-900,msid-90338052/90338052.jpg);
+  background-size: 450px 370px;
 }
