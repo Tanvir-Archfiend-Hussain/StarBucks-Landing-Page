@@ -19,8 +19,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: url(https://static.toiimg.com/thumb/resizemode-4,width-1200,height-900,msid-90338052/90338052.jpg);
-  background-size: 450px 370px;
+  background: #fff;
 }
 
 header {
@@ -61,4 +60,13 @@ header ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.content .textBox {
+  position: relative;
+  max-width: 600px;
+}
+
+.content .textBox h2 {
+  color: #333;
 }/*# sourceMappingURL=style.css.map */
