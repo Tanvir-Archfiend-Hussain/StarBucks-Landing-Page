@@ -32,4 +32,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+header .logo {
+  position: relative;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */
