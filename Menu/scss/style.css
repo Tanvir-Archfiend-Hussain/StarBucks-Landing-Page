@@ -1,5 +1,5 @@
 body {
-  background: url(https://metro.co.uk/wp-content/uploads/2014/03/ad_1303365501.jpg?quality=90&strip=all&w=1000&h=630&crop=1);
+  background-color: purple;
 }
 
 .boothImage {
@@ -8,9 +8,13 @@ body {
 }
 
 .content {
-  background-color: purple;
+  background: url(https://metro.co.uk/wp-content/uploads/2014/03/ad_1303365501.jpg?quality=90&strip=all&w=1000&h=630&crop=1);
   padding: 15px;
   padding-left: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 10px;
 }
 
 .photoBooth {
