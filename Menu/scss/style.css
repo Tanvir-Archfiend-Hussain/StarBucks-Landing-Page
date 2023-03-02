@@ -1,0 +1,19 @@
+body {
+  background: url(https://metro.co.uk/wp-content/uploads/2014/03/ad_1303365501.jpg?quality=90&strip=all&w=1000&h=630&crop=1);
+}
+
+.boothImage {
+  width: 330px;
+  height: 330px;
+}
+
+.content {
+  background-color: purple;
+  padding: 15px;
+  padding-left: 15px;
+}
+
+.photoBooth {
+  background-color: pink;
+  padding: 15px;
+}/*# sourceMappingURL=style.css.map */
