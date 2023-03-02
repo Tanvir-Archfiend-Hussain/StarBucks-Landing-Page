@@ -60,6 +60,7 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px 10px;
+  text-align: center;
   font-family: "Poppins", sans-serif;
   .photoBooth {
     background-color: pink;
@@ -67,5 +68,8 @@ section {
   }
   h4 {
     font-size: 25px;
+  }
+  a {
+    font-size: 20px;
   }
 }
