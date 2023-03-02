@@ -2,11 +2,52 @@ body {
   background-color: purple;
 }
 
+header {
+  position: absolute;
+  background-color: rgba(255, 255, 0, 0.383);
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px; // padding for row and coloum
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  position: relative;
+  // max-width: 80px;
+}
+
+#logoImage {
+  width: 100px;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
 .boothImage {
   width: 330px;
   height: 330px;
 }
 
+section {
+  margin-top: 15%;
+}
 .content {
   background: url(https://metro.co.uk/wp-content/uploads/2014/03/ad_1303365501.jpg?quality=90&strip=all&w=1000&h=630&crop=1);
   padding: 15px;
