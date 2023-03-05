@@ -2,3 +2,12 @@ body {
   background: url(https://cdn.room58.com/2023/01/18/18d374e96d35d59acafba74b544bf53b_9313e7e36ab1bbb2.jpg);
   background-size: 1050px 530px;
 }
+
+#gameboard {
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
